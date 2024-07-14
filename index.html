@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeforces POD</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/apple-touch-icon.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container mx-auto my-5 text-center">
+		<h1 class="heading display-5">Codeforces POD</h1>
+	</div>
+    <div class="container mx-auto text-center" id="divo">
+		<div class="row justify-content-center my-5">
+			<div class="col-11 col-md-6 problem-statement fw-bold text-center rounded-start mb-2 mb-md-0">
+				Loading Problem ...
+			</div>
+			<div class="col-11 col-md-1 px-0">
+				<button class="w-100 btn btn-primary rounded-end float-end solve-button"
+					id="solve-button">Solve</button>
+			</div>
+		</div>
+        <div class="row justify-content-center problem-details my-5">
+			<div class="col-md-4 mb-3">
+				<div class="row justify-content-center">
+					<div class="col-7 bg-dark rounded-start p-2">
+						ContestID
+					</div>
+					<div class="col-3 detail-value rounded-end p-2" id="contestID">-</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="row justify-content-center">
+					<div class="col-7 bg-dark rounded-start p-2">
+						Problem Index
+					</div>
+					<div class="col-3 detail-value rounded-end p-2" id="problemID">-</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row justify-content-center">
+					<div class="col-7 bg-dark rounded-start p-2">
+						Difficulty Rating
+					</div>
+					<div class="col-3 detail-value rounded-end p-2" id="problem-rating">-</div>
+				</div>
+			</div>
+		</div>
+    
+</body>
+</html>
