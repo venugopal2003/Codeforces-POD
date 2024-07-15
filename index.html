@@ -45,6 +45,33 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="row justify-content-center mt-3 mt-md-5">
+			<form class="col-11 col-md-7 filter-problems" method="get"
+				onsubmit="updateProblemByRating(); return false;">
+				<fieldset class="py-3">
+					<legend>
+						Filter Problems By Difficulty Rating
+					</legend>
+					<div class="row justify-content-center">
+						<div class="col-auto px-0">
+							<input class="form-control w-100" type="number" name="rating" id="filter-rating" min="800"
+								max="3500" step="100" placeholder="Enter your rating" required>
+							<label class="form-text fst-italic" for="filter-rating">
+								Problem rating lies between 800 to 3500 with step size of 100.
+							</label>
+						</div>
+						<div class="col-sm-auto col-lg-3 px-0 mt-2 mt-lg-0">
+							<button class="btn btn-secondary filter-button">Fetch Problem</button>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
     
 </body>
 </html>

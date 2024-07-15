@@ -1,0 +1,41 @@
+body{
+    background-color:#240750;
+    color: white;
+}
+
+.filter-problems {
+	background-color: #153448;
+	border-radius: 5px;
+}
+
+.filter-button {
+	background-color: #9aabb7;
+	color: black;
+}
+
+.form-text {
+	color: whitesmoke;
+}
+
+.detail-value {
+	background-color: white;
+	color: black;
+}
+
+.problem-statement {
+    background-color: white;
+	align-content: center;
+	color: black;
+	padding: 0.375rem 0.75rem;
+}
+
+.solve-button {
+	border-radius: 0;
+}
+
+@media only screen and (max-width: 720px) {
+	.problem-statement,
+	.solve-button {
+		border-radius: 0.25rem;
+	}
+}
